@@ -5,7 +5,7 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join('../')))
 
-
+class Data_cleaner():
 
 
     """
@@ -137,4 +137,4 @@ sys.path.append(os.path.abspath(os.path.join('../')))
     def convert_to_int(df, columns):
         for col in columns:
             df[col] = df[col].astype('int64')
-        return df
+        return 
